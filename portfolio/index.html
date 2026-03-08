@@ -1,0 +1,811 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Mobile top bar -->
+  <header class="topbar">
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+      ☰
+    </button>
+    <div class="topbar-title">Your Portfolio</div>
+  </header>
+
+  <div class="layout">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="profile">
+        <img class="avatar" src="assets/profile.jpg" alt="Your profile photo" />
+        <h1 class="name">ABUBAKAR ZAHID</h1>
+
+        <div class="social">
+          <a href="https://github.com/abubakarzahid01" aria-label="GitHub" class="social-btn">GH</a>
+          <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" aria-label="LinkedIn" class="social-btn">in</a>
+          <a href="https://www.instagram.com/travelsphere.__?igsh=emhlOXE3bDY2YXdx&utm_source=qr" aria-label="Instagram" class="social-btn">ig</a>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#resume">Resume</a>
+        <a class="nav-link" href="#projects">Portfolio</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <small>© <span id="year"></span> ABUBAKAR ZAHID</small>
+      </div>
+    </aside>
+
+    <!-- Main content -->
+    <main class="content">
+      <!-- HOME SECTION -->
+      <section id="home" class="hero">
+
+  <div class="hero-content">
+    <div class="hero-text">
+      <p class="hello">Hello, I’m</p>
+      <h2 class="hero-name">Abubakar Zahid</h2>
+
+      <p class="hero-role">
+        BSU BSc (Hons) <span class="highlight">Creative Computing</span> Student.<br />
+        I build <span class="highlight">websites</span>, design <span class="highlight">UI/UX</span>, and develop <span class="highlight">games</span>.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn ghost" href="#contact">Contact Me</a>
+      </div>
+
+      <div class="hero-badges">
+        <span class="badge">HTML</span>
+        <span class="badge">CSS</span>
+        <span class="badge">JavaScript</span>
+        <span class="badge">Python</span>
+        <span class="badge">React</span>
+        <span class="badge">Kotlin</span>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="assets/hero.jpg" alt="Abubakar Zahid">
+    </div>
+  </div>
+
+</section>
+
+<!-- ================= ABOUT SECTION (Premium) ================= -->
+<section id="about" class="section about-premium">
+  <div class="about-grid">
+    <!-- LEFT -->
+    <div class="about-left">
+      <h3>About Me</h3>
+
+      <p class="about-text">
+        I’m <strong>Abubakar Zahid</strong>, a BSU BSc (Hons) <strong>Creative Computing</strong> student.
+        I build modern <strong>websites</strong>, design clean <strong>UI/UX</strong>, and develop
+        <strong>mobile apps</strong> and <strong>2D games</strong>. I enjoy turning ideas into real, usable
+        digital products with good design and strong functionality.
+      </p>
+
+      <!-- Quick Stats -->
+      <div class="about-stats-row">
+        <div class="mini-stat">
+          <span class="mini-num">4</span>
+          <span class="mini-label">Websites</span>
+        </div>
+        <div class="mini-stat">
+          <span class="mini-num">1</span>
+          <span class="mini-label">Mobile App</span>
+        </div>
+        <div class="mini-stat">
+          <span class="mini-num">1</span>
+          <span class="mini-label">2D Game</span>
+        </div>
+        <div class="mini-stat">
+          <span class="mini-num">3</span>
+          <span class="mini-label">Awards</span>
+        </div>
+      </div>
+
+      <!-- Academic Excellence -->
+      <div class="about-highlight">
+        <div class="badge-pill">🏅 Academic Excellence</div>
+        <p>
+          <strong>Academic Excellence Award Holder (3x)</strong>  recognized for strong academic performance
+          and consistent results across my semesters.
+        </p>
+      </div>
+
+      <!-- What I Do -->
+      <h4 class="subhead">What I Do</h4>
+      <div class="what-grid">
+        <div class="what-card">
+          <div class="what-icon">🌐</div>
+          <div>
+            <h5>Web Development</h5>
+            <p>HTML, CSS, JavaScript, React — responsive and modern websites.</p>
+          </div>
+        </div>
+
+        <div class="what-card">
+          <div class="what-icon">🎨</div>
+          <div>
+            <h5>UI/UX Design</h5>
+            <p>Wireframes, prototypes, user flows — clean and usable interfaces.</p>
+          </div>
+        </div>
+
+        <div class="what-card">
+          <div class="what-icon">🎮</div>
+          <div>
+            <h5>App & Game Dev</h5>
+            <p>Kotlin apps and 2D games — interactive experiences and logic.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificates -->
+      <h4 class="subhead">LinkedIn Learning Certificates</h4>
+      <div class="cert-chips">
+        <span class="chip">Python Tkinter</span>
+        <span class="chip">Advanced Predictive Modeling</span>
+        <span class="chip">Python for Data Science Essential Training</span>
+        <span class="chip">Artificial Intelligence Foundations</span>
+        <span class="chip">Node.js Essential Training</span>
+      </div>
+
+      <div class="about-actions">
+        <a class="btn primary" href="#projects">View Portfolio</a>
+        <a class="btn ghost" href="#contact">Contact</a>
+        <!-- Optional -->
+        <!-- <a class="btn ghost" href="YOUR_CV_LINK.pdf" target="_blank" rel="noopener">Download CV</a> -->
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="about-right">
+      <div class="about-photo-card">
+        <img src="assets/about.jpg" alt="Abubakar Zahid portrait" />
+      </div>
+
+      <div class="featured-work">
+        <h4 class="subhead">Featured Work</h4>
+
+        <div class="feat-list">
+          <a class="feat-item" href="#projects">
+            <span class="feat-title">Website Project</span>
+            <span class="feat-desc">Responsive website with clean UI and sections.</span>
+          </a>
+
+          <a class="feat-item" href="#projects">
+            <span class="feat-title">Mobile App</span>
+            <span class="feat-desc">Kotlin-based app with simple and usable design.</span>
+          </a>
+
+          <a class="feat-item" href="#projects">
+            <span class="feat-title">2D Game</span>
+            <span class="feat-desc">2D game with gameplay mechanics and scoring.</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= RESUME SECTION (Premium) ================= -->
+<section id="resume" class="section resume">
+  <div class="resume-head">
+    <h3>Resume</h3>
+    <p class="muted">
+      A quick overview of my education, achievements, skills, and the type of work I can do.
+    </p>
+  </div>
+
+  <div class="resume-grid">
+    <!-- LEFT COLUMN -->
+    <div class="resume-col">
+      <!-- Education -->
+      <div class="resume-card">
+        <div class="card-title">
+          <h4>Education</h4>
+          <span class="tag">Current</span>
+        </div>
+
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <div class="tl-top">
+                <h5>BSU — BSc (Hons) Creative Computing</h5>
+                <span class="tl-date">Semester 1–5 Completed</span>
+              </div>
+              <p class="muted">
+                Focus areas: Web Development, UI/UX Design, Game Development, Mobile Apps, and Machine Learning.
+              </p>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <div class="tl-top">
+                <h5>EduQual — Level 4 Diploma</h5>
+                <span class="tl-date">Completed</span>
+              </div>
+              <p class="muted">
+                Foundation-level qualification supporting my academic progression and technical skills.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Achievements -->
+      <div class="resume-card">
+        <div class="card-title">
+          <h4>Achievements</h4>
+        </div>
+
+        <div class="achievement-box">
+          <div class="badge-pill">🏅 Academic Excellence</div>
+          <p class="muted">
+            <strong>3× Academic Excellence Award Holder</strong> — recognized for strong performance and consistent results.
+          </p>
+        </div>
+
+        <ul class="clean-list">
+          <li>Completed multiple practical projects across web, UI/UX, apps, and games.</li>
+          <li>Built responsive front-end interfaces with modern design standards.</li>
+          <li>Completed LinkedIn Learning certificates to improve professional skills.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Tools -->
+<div class="resume-card">
+  <div class="card-title">
+    <h4>Tools & Technologies</h4>
+  </div>
+
+  <div class="tool-grid">
+    <div class="tool">VS Code</div>
+    <div class="tool">GitHub</div>
+    <div class="tool">Figma</div>
+    <div class="tool">Android Studio</div>
+    <div class="tool">Chrome DevTools</div>
+    <div class="tool">Canva</div>
+  </div>
+
+  <p class="muted small-note">
+    I use these tools daily for coding, UI design, debugging, and project management.
+  </p>
+</div>
+
+
+<!-- Technical Summary -->
+<div class="resume-card">
+  <div class="card-title">
+    <h4>Technical Summary</h4>
+  </div>
+
+  <p class="muted">
+    I work on both front-end and basic back-end development. I build full web interfaces,
+    connect data, and structure applications properly.
+  </p>
+
+  <div class="tech-list">
+    <div class="tech-item">
+      <strong>Frontend:</strong>
+      HTML, CSS, JavaScript, React — building responsive UI and components.
+    </div>
+
+    <div class="tech-item">
+      <strong>Backend Basics:</strong>
+      Node.js concepts, APIs understanding, data handling and logic structuring.
+    </div>
+
+    <div class="tech-item">
+      <strong>Database:</strong>
+      MongoDB basics — storing data, collections, and retrieving information.
+    </div>
+
+    <div class="tech-item">
+      <strong>Development Workflow:</strong>
+      Debugging, browser devtools, testing UI behavior and fixing issues.
+    </div>
+  </div>
+</div>
+
+
+    <!-- RIGHT COLUMN -->
+    <div class="resume-col">
+      <!-- Skills -->
+      <div class="resume-card">
+        <div class="card-title">
+          <h4>Skills</h4>
+        </div>
+
+        <div class="skill-groups">
+          <div class="skill-group">
+            <h5>Web Development</h5>
+            <div class="chip-row">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">React</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h5>Programming</h5>
+            <div class="chip-row">
+              <span class="chip">Python</span>
+              <span class="chip">Kotlin</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h5>UI/UX</h5>
+            <div class="chip-row">
+              <span class="chip">Wireframing</span>
+              <span class="chip">Prototyping</span>
+              <span class="chip">User Flows</span>
+              <span class="chip">Usability</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h5>Other</h5>
+            <div class="chip-row">
+              <span class="chip">Problem Solving</span>
+              <span class="chip">Teamwork</span>
+              <span class="chip">Communication</span>
+              <span class="chip">Presentation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience / Projects Summary -->
+      <div class="resume-card">
+        <div class="card-title">
+          <h4>Project Experience</h4>
+          <a class="mini-link" href="#projects">View Portfolio →</a>
+        </div>
+
+        <div class="proj-summary">
+          <div class="proj-pill">🌐 Built 4 Websites</div>
+          <div class="proj-pill">📱 Built 1 Mobile App</div>
+          <div class="proj-pill">🎮 Developed 1 2D Game</div>
+        </div>
+
+        <div class="mini-cards">
+          <div class="mini-card">
+            <h5>Website Projects</h5>
+            <p class="muted">Responsive layouts, multi-section pages, clean UI, and interactive components.</p>
+          </div>
+          <div class="mini-card">
+            <h5>Mobile App</h5>
+            <p class="muted">Kotlin-based app with structured screens and user-friendly interface.</p>
+          </div>
+          <div class="mini-card">
+            <h5>2D Game</h5>
+            <p class="muted">Gameplay logic, scoring, UI screens, and user experience focus.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificates -->
+      <div class="resume-card">
+        <div class="card-title">
+          <h4>Certificates</h4>
+        </div>
+
+        <p class="muted">
+          Continuous learning through professional courses and developer community programs.
+  I actively improve my skills using LinkedIn Learning and by participating in
+  Google Developer Group (GDG) events and workshops.
+        </p>
+
+        <div class="chip-row">
+          <span class="chip">Python Tkinter</span>
+          <span class="chip">Advanced Predictive Modeling</span>
+          <span class="chip">Python for Data Science Essential Training</span>
+          <span class="chip">Artificial Intelligence Foundations</span>
+          <span class="chip chip-highlight">Google Developer Group (GDG) Certificate</span>
+          <span class="chip chip-highlight">Tech Community Participation</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="projects" class="portfolio-section">
+
+  <div class="section-header">
+    <h2>My Projects</h2>
+    <p class="muted">Some of the work I’ve built across web, apps, and games.</p>
+  </div>
+
+  <div class="portfolio-grid">
+
+    <!-- Project 1 -->
+    <div class="project-card">
+      <img src="assets/projects/project1.jpg" alt="Project 1">
+      <div class="project-info">
+        <h3>Restaurant Website</h3>
+        <p>Responsive multi-page website with menu, booking and clean UI design.</p>
+        <a href="https://dining-atlas-3z31.vercel.app/" target="_blank" class="project-btn">View Project</a>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <img src="assets/projects/project2.jpg" alt="Project 2">
+      <div class="project-info">
+        <h3>Interactive Story Game (Twine)</h3>
+        <p>A branching narrative game created in Twine with 
+           different endings, and interactive storytelling.</p>
+        <a href="https://abubakarzahid.itch.io/interstellar" target="_blank" class="project-btn">View Project</a>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <img src="assets/projects/project3.jpg" alt="Project 3">
+      <div class="project-info">
+        <h3>E-Commerce UI</h3>
+        <p>Front-end shopping website with product cards and filtering system.</p>
+        <a href="https://bistro101-website.vercel.app/" target="_blank" class="project-btn">View Project</a>
+      </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="project-card">
+      <img src="assets/projects/project4.jpg" alt="Project 4">
+      <div class="project-info">
+        <h3>Mobile App (Kotlin)</h3>
+        <p>Android app with structured screens and user friendly navigation.</p>
+        <a href="https://youtu.be/YZl8aJBK024?si=l0MctbsNX9OKaclE" target="_blank" class="project-btn">View Project</a>
+      </div>
+    </div>
+
+    <!-- Project 5 -->
+    <div class="project-card">
+      <img src="assets/projects/project5.jpg" alt="Project 5">
+      <div class="project-info">
+        <h3>2D Game</h3>
+        <p>Simple 2D game including scoring system and gameplay mechanics.</p>
+        <a href="https://abubakarzahid.itch.io/bonesbreaker" target="_blank" class="project-btn">View Project</a>
+      </div>
+    </div>
+
+    <!-- Project 6 -->
+    <div class="project-card">
+      <img src="assets/projects/project6.jpg" alt="Project 6">
+      <div class="project-info">
+        <h3>UI/UX Design Project</h3>
+        <p>Wireframes and interactive UI prototypes created in Figma.</p>
+        <a href="https://sway.cloud.microsoft/ReKoFtgCSCwLmE5k?ref=Link" target="_blank" class="project-btn">View Project</a>
+      </div>
+    </div>
+
+    <!-- Project 7 -->
+<div class="project-card">
+  <img src="assets/projects/project7.jpg" alt="Project 7">
+  <div class="project-info">
+    <h3>Machine Learning Project</h3>
+    <p>Basic machine learning model exploring data prediction and analysis concepts.</p>
+    <a href="https://www.kaggle.com/code/abubakarzahid001/ml-assignment-2-diet-recommender" target="_blank" class="project-btn">View Project</a>
+  </div>
+</div>
+
+<!-- Project 8 -->
+<div class="project-card">
+  <img src="assets/projects/project8.jpg" alt="Project 8">
+  <div class="project-info">
+    <h3>Emerging Technologies Project</h3>
+    <p>A project exploring emerging tech, interactive data visualization and a
+      chatbot experience.</p>
+    <a href="https://sway.cloud.microsoft/F5kQ3NeALKwpSYLz?ref=Link" target="_blank" class="project-btn">View Project</a>
+  </div>
+</div>
+
+<!-- Project 9 -->
+<div class="project-card">
+  <img src="assets/projects/project9.jpg" alt="Project 9">
+  <div class="project-info">
+    <h3>Experimental Web Project</h3>
+    <p>Modern UI layout exploring animations, transitions, and interaction effects.</p>
+    <a href="https://prime-marketing-two.vercel.app/" target="_blank" class="project-btn">View Project</a>
+  </div>
+</div>
+
+
+  </div>
+</section>
+
+
+
+
+<section id="skills" class="section skills-v2">
+  <div class="section-header">
+    <h2>Skills & Certificates</h2>
+    <p class="muted">My core technical strengths and verified achievements.</p>
+  </div>
+
+  <!-- Visual Skill Logos -->
+  <div class="skills-logos">
+    <div class="logo-card">
+      <img src="assets/skills/html.png" alt="HTML">
+      <span>HTML</span>
+    </div>
+
+    <div class="logo-card">
+      <img src="assets/skills/css.png" alt="CSS">
+      <span>CSS</span>
+    </div>
+
+    <div class="logo-card">
+      <img src="assets/skills/js.png" alt="JavaScript">
+      <span>JavaScript</span>
+    </div>
+
+    <div class="logo-card">
+      <img src="assets/skills/react.png" alt="React">
+      <span>React</span>
+    </div>
+
+    <div class="logo-card">
+      <img src="assets/skills/python.png" alt="Python">
+      <span>Python</span>
+    </div>
+
+    <div class="logo-card">
+      <img src="assets/skills/kotlin.png" alt="Kotlin">
+      <span>Kotlin</span>
+    </div>
+
+    <div class="logo-card">
+      <img src="assets/skills/figma.png" alt="Figma">
+      <span>Figma</span>
+    </div>
+
+    <div class="logo-card">
+      <img src="assets/skills/mongodb.png" alt="MongoDB">
+      <span>MongoDB</span>
+    </div>
+  </div>
+
+  <!-- What I Build (Image Cards) -->
+  <div class="what-i-build">
+    <div class="work-card">
+      <img src="assets/skills/work-web.jpg" alt="Web Development">
+      <div class="work-overlay">
+        <h3>Web Development</h3>
+        <p>Responsive websites, interactive UI, clean design.</p>
+      </div>
+    </div>
+
+    <div class="work-card">
+      <img src="assets/skills/work-uiux.jpg" alt="UI UX Design">
+      <div class="work-overlay">
+        <h3>UI/UX Design</h3>
+        <p>Wireframes, prototypes, user-centered layouts.</p>
+      </div>
+    </div>
+
+    <div class="work-card">
+      <img src="assets/skills/work-app.jpg" alt="App Development">
+      <div class="work-overlay">
+        <h3>App Development</h3>
+        <p>Kotlin Android apps with structured screens.</p>
+      </div>
+    </div>
+
+    <div class="work-card">
+      <img src="assets/skills/work-game.jpg" alt="Game Development">
+      <div class="work-overlay">
+        <h3>Game Development</h3>
+        <p>2D games, scoring, gameplay mechanics.</p>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- Certificates & Awards (Clean Grid + Popup) -->
+<div class="cert-block">
+  <div class="cert-head">
+    <div>
+      <h4>Certificates & Awards</h4>
+      <p class="muted">Academic Excellence, GDG participation, and LinkedIn Learning.</p>
+    </div>
+    <span class="muted small-note">Click any certificate to preview</span>
+  </div>
+
+  <div class="cert-grid">
+
+  <!-- Academic Excellence 1 -->
+  <button class="cert-card" data-img="assets/certificates/academic1.jpg" data-title="Academic Excellence Award">
+    <img src="assets/certificates/academic1.jpg" alt="Academic Excellence Award">
+    <div class="cert-meta">
+      <span class="cert-title">Academic Excellence</span>
+      <span class="cert-sub">Year Achievement</span>
+    </div>
+  </button>
+
+  <!-- Academic Excellence 2 -->
+  <button class="cert-card" data-img="assets/certificates/academic2.jpg" data-title="Academic Excellence Award">
+    <img src="assets/certificates/academic2.jpg" alt="Academic Excellence Award">
+    <div class="cert-meta">
+      <span class="cert-title">Academic Excellence</span>
+      <span class="cert-sub">Year Achievement</span>
+    </div>
+  </button>
+
+  <!-- GDG Certificate 1 -->
+  <button class="cert-card" data-img="assets/certificates/gdg1.jpg" data-title="Google Developer Group Certificate">
+    <img src="assets/certificates/gdg1.jpg" alt="GDG Certificate">
+    <div class="cert-meta">
+      <span class="cert-title">GDG Event</span>
+      <span class="cert-sub">Google Developer Group</span>
+    </div>
+  </button>
+
+  <!-- GDG Certificate 2 -->
+  <button class="cert-card" data-img="assets/certificates/gdg2.jpg" data-title="Google Developer Group Certificate">
+    <img src="assets/certificates/gdg2.jpg" alt="GDG Certificate">
+    <div class="cert-meta">
+      <span class="cert-title">GDG Workshop</span>
+      <span class="cert-sub">Participation</span>
+    </div>
+  </button>
+
+  <!-- LinkedIn 1 -->
+  <button class="cert-card" data-img="assets/certificates/linkedin1.jpg" data-title="LinkedIn Learning Certificate">
+    <img src="assets/certificates/linkedin1.jpg" alt="LinkedIn Certificate">
+    <div class="cert-meta">
+      <span class="cert-title">LinkedIn Learning</span>
+      <span class="cert-sub">Course Certificate</span>
+    </div>
+  </button>
+
+  <!-- LinkedIn 2 -->
+  <button class="cert-card" data-img="assets/certificates/linkedin2.jpg" data-title="LinkedIn Learning Certificate">
+    <img src="assets/certificates/linkedin2.jpg" alt="LinkedIn Certificate">
+    <div class="cert-meta">
+      <span class="cert-title">LinkedIn Learning</span>
+      <span class="cert-sub">Course Certificate</span>
+    </div>
+  </button>
+
+</div>
+</div>
+
+</section>
+
+
+
+<section id="contact" class="section contact-v3">
+  <div class="section-header">
+    <h2>Contact</h2>
+    <p class="muted">If you want to collaborate or have an opportunity, message me here.</p>
+  </div>
+
+  <div class="contact-wrap">
+
+    <!-- LEFT: Contact info -->
+    <div class="contact-left">
+
+      <div class="contact-info-card">
+        <div class="contact-ico">📍</div>
+        <div>
+          <h4>Location</h4>
+          <p class="muted">UAE</p>
+        </div>
+      </div>
+
+      <div class="contact-info-card">
+        <div class="contact-ico">📧</div>
+        <div>
+          <h4>Email</h4>
+          <a class="contact-link" href="mailto:zahidabubakar342@gmail.com">zahidabubakar342@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="contact-info-card">
+        <div class="contact-ico">💼</div>
+        <div>
+          <h4>LinkedIn</h4>
+          <a class="contact-link" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank">
+            linkedin.com/in/abubakarzahid01
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-info-card">
+        <div class="contact-ico">📘</div>
+        <div>
+          <h4>Facebook</h4>
+          <a class="contact-link" href="https://www.facebook.com/abubakar.zahid.3388?mibextid=wwXIfr&rdid=UC2Lx4AgJuQoouPK&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1ErmnAG7Rf%2F%3Fmibextid%3DwwXIfr#" target="_blank">
+            facebook.com/abubakar.zahid.3388
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT: Contact form -->
+    <form class="contact-form" action="mailto:zahidabubakar342@gmail.com" method="post" enctype="text/plain">
+      <div class="form-row">
+        <div class="field">
+          <label for="cname">Your Name</label>
+          <input id="cname" name="name" type="text" placeholder="Your name" required>
+        </div>
+
+        <div class="field">
+          <label for="cemail">Your Email</label>
+          <input id="cemail" name="email" type="email" placeholder="your@email.com" required>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="csubject">Subject</label>
+        <input id="csubject" name="subject" type="text" placeholder="Project / Internship / Collaboration" required>
+      </div>
+
+      <div class="field">
+        <label for="cmsg">Message</label>
+        <textarea id="cmsg" name="message" rows="6" placeholder="Write your message..." required></textarea>
+      </div>
+
+      <button type="submit" class="btn primary contact-send">Send Message</button>
+      <p class="muted tiny-note">This will open your email app to send the message.</p>
+    </form>
+
+  </div>
+</section>
+
+
+
+    </main>
+  </div>
+
+
+
+  <!-- Certificate Preview Modal -->
+<div class="cert-modal" id="certModal" aria-hidden="true">
+  <div class="cert-backdrop" id="certClose"></div>
+
+  <div class="cert-popup" role="dialog" aria-modal="true" aria-labelledby="certTitle">
+    <div class="cert-popup-head">
+      <h4 id="certTitle">Certificate</h4>
+
+      <div class="cert-popup-actions">
+        <button class="cert-nav" id="certPrev" aria-label="Previous">❮</button>
+        <button class="cert-nav" id="certNext" aria-label="Next">❯</button>
+        <button class="cert-x" id="certX" aria-label="Close">✕</button>
+      </div>
+    </div>
+
+    <div class="cert-view">
+      <img id="certPreview" src="" alt="Certificate preview">
+    </div>
+  </div>
+</div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
